@@ -10,3 +10,6 @@ else:
 print(device)
 
 
+data = pd.read_csv("EcoPreprocessed.csv", usecols=[1,2], header=None)
+
+print(data.head())
