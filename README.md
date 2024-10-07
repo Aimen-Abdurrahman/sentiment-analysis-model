@@ -28,7 +28,7 @@ The model evaluates on the following test sentences:
 2. "bad movie"
 3. "worst wifi ever"
 4. "not good movie"
-The output will display the model's predicted sentiment for each test case (1 is positive, -1 is negative).
+<br>The output will display the model's predicted sentiment for each test case (1 is positive, -1 is negative).
 
 ## Training Details
 - Loss Function: Mean Squared Error Loss (nn.MSELoss)
