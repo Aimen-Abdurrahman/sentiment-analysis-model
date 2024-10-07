@@ -60,28 +60,3 @@ model.eval()
 
 # Display test results
 print(model(tensor_test_data).tolist())
-
-
-# example_one = "worst movie ever"
-
-# example_two = "best movie ever"
-
-# example_three = "weird but funny movie"
-
-# examples = [example_one,example_two,example_three]
-
-# # Let's encode these strings as numbers using the dictionary from earlier
-# var_len = []
-# for example in examples:
-#   int_version = []
-#   for word in example.split():
-#     int_version.append(word_to_int[word])
-#   var_len.append(torch.tensor(int_version))
-
-# testing_tensor = torch.nn.utils.rnn.pad_sequence(var_len, batch_first=True)
-# model.eval()
-
-# print(model(testing_tensor).tolist())
-
-
-
