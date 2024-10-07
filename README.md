@@ -8,8 +8,8 @@ model_class.py: Defines the SentimentPredictor model architecture.
 train_model.py: Loads data, preprocesses it, initializes the model, trains it, and tests it on sample sentences.
 
 ## Prerequisites
-PyTorch
-Pandas
+1. PyTorch
+2. Pandas
 
 ## Dataset
 The model uses the following dataset for training: (https://github.com/gptandchill/sentiment-analysis/blob/main/EcoPreprocessed.csv).
