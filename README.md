@@ -3,8 +3,8 @@
 This repository contains a PyTorch-based sentiment analysis model that preprocesses textual data, trains a neural network, and predicts sentiment for a set of test sentences.
 
 ## Files Overview
-data_preprocessing.py: Handles the encoding of sentences and prepares the dataset for training.
-model_class.py: Defines the SentimentPredictor model architecture.
+data_preprocessing.py: Handles the encoding of sentences and prepares the dataset for training.<br>
+model_class.py: Defines the SentimentPredictor model architecture.<br>
 train_model.py: Loads data, preprocesses it, initializes the model, trains it, and tests it on sample sentences.
 
 ## Prerequisites
