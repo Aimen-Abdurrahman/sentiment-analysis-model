@@ -31,8 +31,8 @@ The model evaluates on the following test sentences:
 The output will display the model's predicted sentiment for each test case (1 is positive, -1 is negative).
 
 ## Training Details
-Loss Function: Mean Squared Error Loss (nn.MSELoss)
-Optimizer: Adam Optimizer
-Number of Epochs: 1000
-Batch Size: 64
-Embedding Dimension: 256
+- Loss Function: Mean Squared Error Loss (nn.MSELoss)
+- Optimizer: Adam Optimizer
+- Number of Epochs: 1000
+- Batch Size: 64
+- Embedding Dimension: 256
